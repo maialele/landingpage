@@ -1,0 +1,118 @@
+body {
+	font-family: "Comic Sans MS";
+	margin: 0;
+}
+
+.header {
+	background: #1f2937;
+	display: flex;
+	justify-content: space-around;
+	padding: 8px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+ul {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	gap: 16px;
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.thiswebcon1 {
+	display: flex;
+	padding: 100px;
+	background: #1f2937;
+	color: white;
+}
+
+.thisweb {
+	display: flex;
+	flex-direction: column;
+	padding: 100px;
+}
+
+.awesome {
+	font-size: 60px;
+}
+
+.greybox {
+	background: grey;
+	width: 100px;
+	padding: 120px;
+	margin: 100px;
+}
+
+.thisweb button {
+	background: #3882F6;
+	display: block;
+	width: 100px;
+	padding: 5px;
+	margin-top: 10px;
+	border-radius: 5px;
+	font-weight: bold;
+	color: white
+}
+
+.thiswebcon2 {
+	display: flex;
+	justify-content: center;
+	padding: 50px;
+}
+
+.titleinfo {
+	font-weight: bold;
+	font-size: 30px;
+	color: #1f2937
+}
+
+.boxcontainer {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+}
+
+.boxcontainer div {
+	width: 50px;
+	background: white;
+	border: solid;
+	border-color: #3882F6;
+	border-radius: 10px;
+	width: 120px;
+	height: 120px;
+	margin: 5px;
+}
+
+.boxtextcon {
+	display: flex;
+	justify-content: center;
+	gap: 33px;
+	margin-bottom: 100px;
+}
+
+.boxtext {
+	font-size: 12px;
+	width: 120px;
+	text-align: center;
+}
+
+.greysection {
+	background: #e5e7eb;
+	padding: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.qoute {
+	width: 200px;
+}
