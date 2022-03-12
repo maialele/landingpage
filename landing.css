@@ -88,7 +88,7 @@ a {
 
 .titleinfo {
 	font-weight: bold;
-	font-size: 30px;
+	font-size:40px;
 	color: #1f2937
 }
 
@@ -104,8 +104,8 @@ a {
 	border: solid;
 	border-color: #3882F6;
 	border-radius: 10px;
-	width: 120px;
-	height: 120px;
+	width: 150px;
+	height: 150px;
 	margin: 5px;
 }
 
@@ -117,8 +117,8 @@ a {
 }
 
 .boxtext {
-	font-size: 12px;
-	width: 120px;
+	font-size: 15px;
+	width: 150px;
 	text-align: center;
 }
 
@@ -132,5 +132,65 @@ a {
 }
 
 .qoute {
-	width: 200px;
+	font-style: italic;
+	font-size: 35px;
+	width: 720px;
+}
+
+.thor {
+	display: flex;
+	justify-content: flex-end;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 20px;
+}
+
+.actionbigcon {
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100px;
+	margin: 0;
+}
+
+.actioncon {
+	display: flex;
+	color: white;
+	background: #3882F6;
+	padding: 40px;
+	border-radius: 5px;
+	justify-content: space-evenly;
+	width: 700px;
+}
+
+.action {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.action span {
+	display: block;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.actioncon button {
+	background: #3882F6;
+	width: 100px;
+	border-radius: 5px;
+	font-weight: bold;
+	color: white;
+	border-color: white;
+}
+
+.copyright {
+	text-align: center;
+	color: white;
+	background: #1f2937;
+	padding: 20px;
+}
+
+.copyright a {
+	font-weight: bold;
 }
